@@ -7,12 +7,7 @@
 * 在Google Play可购买，目前价格是$45.6
 ## 快速阅读传送门
 
-- GitHub 快速阅读：[进入目录](https://github.com/LingCoder/OnJava8/blob/master/SUMMARY.md)
-
-- Gitee 快速阅读：[进入目录](https://gitee.com/lingcoder/OnJava8/blob/master/SUMMARY.md)
-
-- GitBook 完整阅读：[进入Gitbook](https://lingcoder.gitbook.io/onjava8)
-
+- [立即阅读](https://fyeeme.github.io/OnJava8/)
 
 ## 翻译进度
 - [ ] 前言 
