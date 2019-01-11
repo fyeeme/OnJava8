@@ -1,0 +1,9 @@
+h1 > img {
+    height: 50px; 
+    padding-right: 25px;
+}
+
+h2 > img {
+    height: 25px;
+    padding-right: 10px;
+}
