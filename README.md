@@ -7,7 +7,8 @@
 * 在Google Play可购买，目前价格是$45.6
 ## 快速阅读传送门
 
-- [立即阅读](https://fyeeme.github.io/OnJava8/)
+- [阅读中文版本](https://fyeeme.github.io/OnJava8/zh)
+- [阅读英文版本](https://fyeeme.github.io/OnJava8/en)
 
 ## 翻译进度
 - [ ] 前言 
@@ -25,7 +26,7 @@
 
 ## 原书信息
 
-<img src="img/thumbnail.jpeg" width="200px" height="260px"  alt="thumbnail"/>
+<img src="book/assets/thumbnail.jpeg" width="200px" height="260px"  alt="thumbnail"/>
 
 * 书名: [On Java 8](http://www.onjava8.com/)
 * 作者: [Bruce Eckel](https://www.bruceeckel.com/) 
