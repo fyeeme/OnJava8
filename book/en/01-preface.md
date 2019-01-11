@@ -55,15 +55,21 @@ The code examples in this book compile with Java 8 and the Gradle build tool. Al
 
 Without a built-in test framework with tests that run every time you do a build of your system, you have no way of knowing whether your code is reliable. To accomplish this in the book, I created a test system to display and validate the output of most examples. The output from running an example is attached, as a block comment, at the end of examples that produce output. In some cases only the first few lines are shown, or first and last lines. Embedded output improves the reading and learning experience, and provides yet another way to verify the correctness of the examples.
 
-Popularity Java’s popularity has significant implications. If you learn it, getting a job will probably be easier. There are a lot more training materials, courses, and other learning resources available. If you’re starting a company and you choose to work in Java, it’s much easier to find programmers, and that’s a compelling argument.
+##  ![alt text](../assets/subhead.png)Popularity
+
+ Java’s popularity has significant implications. If you learn it, getting a job will probably be easier. There are a lot more training materials, courses, and other learning resources available. If you’re starting a company and you choose to work in Java, it’s much easier to find programmers, and that’s a compelling argument.
 
 Short-term thinking is almost always a bad idea. Don’t use Java if you really don’t like it—using it just to get a job is an unhappy life choice. As a company, think hard before choosing Java just because you can hire people. There might be another language that makes fewer employees far more productive for your particular need.
 
 But if you do enjoy it, if Java does call to you, then welcome. I hope this book will enrich your programming experience.
 
-Android Programmers I’ve made this book as “Java 8 as possible,” so if you want to program for Android devices, you must study Java 5, which I cover in Thinking in Java, 4th edition. At the time of publishing of On Java 8, Thinking in Java, 4th Edition has become a free download, available through www.OnJava8.com. Thinking in Java, 4th Edition is available in print from Prentice-Hall. In addition, there are many other resources that specialize in Android programming.
+##  ![alt text](../assets/subhead.png)Android Programmers 
 
-This is Only an eBook On Java 8 is only available as an eBook, and only via www.OnJava8.com. Any other source or delivery mechanism is illegitimate. There is no print version.
+I’ve made this book as “Java 8 as possible,” so if you want to program for Android devices, you must study Java 5, which I cover in Thinking in Java, 4th edition. At the time of publishing of On Java 8, Thinking in Java, 4th Edition has become a free download, available through www.OnJava8.com. Thinking in Java, 4th Edition is available in print from Prentice-Hall. In addition, there are many other resources that specialize in Android programming.
+
+##  ![alt text](../assets/subhead.png)This is Only an eBook 
+
+On Java 8 is only available as an eBook, and only via www.OnJava8.com. Any other source or delivery mechanism is illegitimate. There is no print version.
 
 This is copyrighted work. Do not post or share it in any way without permission via mindviewinc@gmail.com. You may use the examples for teaching, as long as they are not republished without permission and attribution. See the Copyright.txt file in the example distribution for full details. This book is far too large to publish as a single print volume, and my intent has always been to only publish it as an eBook. Color syntax highlighting for code listings is, alone, worth the cost of admission. Searchability, font resizing or text-to-voice for the vision-impaired, the fact you can always keep it with you—there are so many benefits to eBooks it’s hard to name them all.
 
@@ -75,11 +81,15 @@ Note: At the time of this writing, reading the book through the
 
 Google Play Books web browser app was—although tolerable—the least satisfying viewing experience. I strongly advocate using a tablet computer instead.
 
-Colophon This book was written with Pandoc-flavored Markdown, and produced into ePub version 3 format using Pandoc. The body font is Georgia and the headline font is Verdana. The code font is Ubuntu Mono, because it is especially compact and allows more characters on a line without wrapping. I chose to place the code inline (rather than make listings into images, as I’ve seen some books do) because it was important to me that the reader be able to resize the font of the code listings when they resize the body font (otherwise, really, what’s the point?).
+##  ![alt text](../assets/subhead.png)Colophon 
+
+This book was written with Pandoc-flavored Markdown, and produced into ePub version 3 format using Pandoc. The body font is Georgia and the headline font is Verdana. The code font is Ubuntu Mono, because it is especially compact and allows more characters on a line without wrapping. I chose to place the code inline (rather than make listings into images, as I’ve seen some books do) because it was important to me that the reader be able to resize the font of the code listings when they resize the body font (otherwise, really, what’s the point?).
 
 The build process for the book was automated, as well as the process to extract, compile and test the code examples. All automation was achieved through fairly extensive programs I wrote in Python 3. Cover Design The cover of On Java 8 is from a mosaic created through the Works Progress Administration (WPA, a huge project during the US Great Depression from 1935-1943 which put millions of out-of-work-people back to work). It also reminds me of the illustrations from The Wizard of Oz series of books. My friend and designer, Daniel Will-Harris (www.will-harris.com) and I just liked the image.
 
-Thanks Thanks to Eric Evans (author of Domain-Driven Design) for suggesting the book title, and to everyone else in the conference newsgroups for their help in finding the title.
+##  ![alt text](../assets/subhead.png)Thanks 
+
+Thanks to Eric Evans (author of Domain-Driven Design) for suggesting the book title, and to everyone else in the conference newsgroups for their help in finding the title.
 
 Thanks to James Ward for starting me with the Gradle build tool for this book, and for his help and friendship over the years. Thanks to Ben Muschko for his work polishing the build files, and Hans Dockter for giving Ben the time.
 
@@ -87,7 +97,10 @@ Jeremy Cerise and Bill Frasure came to the developer retreat for the book and fo
 
 Thanks to all who have taken the time and effort to come to my conferences, workshops, developer retreats, and other events in my town of Crested Butte, Colorado. Your contributions might not be easily seen, but they are deeply important.
 
-Dedication For my beloved father, E. Wayne Eckel.
+##  ![alt text](../assets/subhead.png)Dedication 
+
+
+For my beloved father, E. Wayne Eckel.
 
 April 1, 1924—November 23, 2016. Introduction
 
