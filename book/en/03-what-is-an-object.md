@@ -58,7 +58,7 @@ Once a class is established, make as many objects of that class as you like, the
 
 How do you get an object to do useful work? You make a request of that object—complete a transaction, draw something on the screen, turn on a switch. Each object accepts only certain requests, defined by its interface The type determines the interface. As a simple example, consider a representation for a light bulb:
 
-<img src="../../assets/c03/01.jpeg" width="450px" height="250px">
+<img src="../assets/c03/01.jpeg" width="450px" height="250px">
 
 ```java
 Light lt = new Light(); 
@@ -105,7 +105,7 @@ The simplest way to reuse a class is to use an object of that class directly, bu
 
 called composition (if composition is dynamic, it’s usually called aggregation). Composition is often called a has-a relationship, as in “A car has an engine.”
 
-<img src="../../assets/c03/02.png" width="420px" height="140px">
+<img src="../assets/c03/02.png" width="420px" height="140px">
 
 (This diagram indicates composition with the filled diamond, which states there is one car. I typically use a simpler form: just a line, without the diamond, to indicate an association.4 Composition comes with a great deal of flexibility. The member objects of your new class are typically private, making them inaccessible to client programmers who use the class. This means changing those members doesn’t disturb existing client code. You can also change the member objects at run time, to dynamically change the behavior of your program. Inheritance, described next, does not have this flexibility since the compiler must place compile-time restrictions on classes created using inheritance.
 
@@ -115,7 +115,7 @@ Inheritance is is often highly emphasized in object-oriented programming. A new 
 
 By itself, the idea of an object is a convenient tool. Objects package
 
-<img src="../../assets/c03/03.jpeg" width="200px" height="420px">
+<img src="../assets/c03/03.jpeg" width="200px" height="420px">
 
 data and functionality together by concept and represent an appropriate problem-space idea rather than being forced to use the idioms of the underlying machine. These concepts are expressed as fundamental units in the programming language by using the class keyword.
 
