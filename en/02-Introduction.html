@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Preface · Albatross Language Description</title>
+        <title>Introduction · Albatross Language Description</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -59,10 +59,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="01-preface.html" />
+    <link rel="next" href="02-Introduction.html" />
     
     
-    <link rel="prev" href="00-on-java-8.html" />
+    <link rel="prev" href="01-preface.html" />
     
 
     </head>
@@ -104,7 +104,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="01-preface.html">
+        <li class="chapter " data-level="1.2" data-path="01-preface.html">
             
                 <a href="01-preface.html">
             
@@ -240,7 +240,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="02-Introduction.html">
+        <li class="chapter active" data-level="1.3" data-path="02-Introduction.html">
             
                 <a href="02-Introduction.html">
             
@@ -1075,7 +1075,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Preface</a>
+        <a href="." >Introduction</a>
     </h1>
 </div>
 
@@ -1090,73 +1090,11 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="reface"><img src="../assets/chapter.png" alt="alt text">reface</h1>
+                                <h1 id="introduction"><img src="../assets/chapter.png" alt="alt text">Introduction</h1>
 <blockquote>
-<p>This book teaches the most modern form of Java programming using the features in the 8th version of that language.</p>
+<p>&#x201C;The limits of my language are the limits of my world&#x201D;&#x2014;Wittgenstein </p>
 </blockquote>
-<p>My previous Java book, Thinking in Java, 4th Edition (Prentice Hall 2006), is still useful for programming in Java 5, the version of the language used for Android programming. But especially with the advent of Java 8, the language has changed significantly enough that new Java code feels and reads differently. This justified the two-year effort of creating a new book.</p>
-<p>On Java 8 is designed for someone with a basic foundation in programming. For beginners, web sites like Code.org and Khan Academy can provide at least some of that background, along with the Thinking in C seminar freely available at the OnJava8 Site. Services like YouTube, blogs and StackOverflow have made finding answers ridiculously easy compared to just a few years ago when we relied on print media. Combine these with perseverance, and you can use this book as your first programming text. It&#x2019;s also intended for professional programmers who want to expand their knowledge. I am grateful for all the benefits from Thinking in Java, mostly in the form of speaking engagements all over the world. It has proved</p>
-<p>invaluable in creating connections with people and companies for my Reinventing Business project. One of the reasons I finally wrote this book is to support my Reinventing Business research, and it seems the next logical step is to actually create a so-called Teal Organization. I hope this book can become a kind of crowdfunding for that project.</p>
-<h2 id="goals"><img src="../assets/subhead.png" alt="alt text">Goals</h2>
-<p>Each chapter teaches a concept, or a group of associated concepts, without relying on features that haven&#x2019;t yet been introduced. That way you can digest each piece in the context of your current knowledge before moving on.</p>
-<p>My goals in this book are to:</p>
-<ol>
-<li><p>Present the material one step at a time so you can easily incorporate each idea before moving on, and to carefully sequence the presentation of features so you&#x2019;re exposed to a topic before you see it in use. This isn&#x2019;t always possible; in those situations, a brief introductory description is given.</p>
-</li>
-<li><p>Use examples that are as simple and short as possible. This sometimes prevents me from tackling &#x201C;real world&#x201D; problems, but I&#x2019;ve found that beginners are usually happier when they can understand every detail of an example rather than being impressed by the scope of the problem it solves. For this I might receive criticism for using &#x201C;toy examples,&#x201D; but I&#x2019;m willing to accept that in favor of producing something pedagogically useful.</p>
-</li>
-<li><p>Give you what I think is important for you to understand about the language, rather than everything I know. I believe there is an information importance hierarchy, and there are some facts that 95 percent of programmers will never need to know&#x2014;details that just confuse people and increase their perception of the complexity of the language. If you must think about it, it will also confuse the reader/maintainer of that code, so I advocate choosing a simpler approach.</p>
-</li>
-<li><p>Provide you with a solid foundation so you understand the issues well enough to move on to more difficult coursework and books. </p>
-</li>
-</ol>
-<h2 id="language-design-errors"><img src="../assets/subhead.png" alt="alt text">Language Design Errors</h2>
-<p>Every language has design errors. New programmers experience deep uncertainty and frustration when they must wade through features and guess at what they should use and what they shouldn&#x2019;t. It&#x2019;s embarrassing to admit mistakes, but this bad beginner experience is a lot worse than the discomfort of acknowledging you were wrong about something. Alas, every failed language/library design experiment is forever embedded in the Java distribution.</p>
-<p>The Nobel laureate economist Joseph Stiglitz has a philosophy of life that applies here, called The Theory of Escalating Commitment:</p>
-<blockquote>
-<p>&#x201C;The cost of continuing mistakes is borne by others, while the cost of admitting mistakes is borne by yourself.&#x201D;</p>
-</blockquote>
-<p>If you&#x2019;ve read my past writings, you&#x2019;ll know that when I find design errors in a language, I tend to point them out. Java has developed a particularly avid following, folks who treat the language more like a country of origin and less like a programming tool. Because I&#x2019;ve written about Java, they assume I am a fellow patriot. When I criticize the errors I find, it tends to have two effects:</p>
-<ol>
-<li><p>Initially, a lot of &#x201C;my-country-right-or-wrong&#x201D; furor, which typically dies down to isolated pockets. Eventually&#x2014;this can take years&#x2014;the error is acknowledged and seen as just part of the history of Java.</p>
-</li>
-<li><p>More importantly, new programmers don&#x2019;t go through the struggle of wondering why &#x201C;they&#x201D; did it this way, especially the self-doubt that comes from finding something that just doesn&#x2019;t seem right and naturally assuming I must be doing it wrong or I just don&#x2019;t get it. Worse, those who teach the language often go right along with the misconceptions rather than delving in and analyzing the issue. By understanding the language design errors, new programmers can understand that something was a mistake, and move ahead.</p>
-</li>
-</ol>
-<p>Understanding language and library design errors is essential because of the impact they have on programmer productivity. Some companies and teams choose to avoid certain features because, while seductive on the surface, those features can block your progress when you least expect it. Design errors also inform the creation and adoption of new languages. It&#x2019;s fun to explore what can be done with a language, but design errors tell you what can&#x2019;t be done with that language.</p>
-<p>For many years, I honestly felt a lack of care from the Java designers regarding their users. Some of these errors seemed so blatant, so poorly thought-out, that it appeared the designers had some other motivation in mind instead of serving their users. There was a lot of notoriety around the Java language for a long time, and perhaps that&#x2019;s where the seduction was. This seeming lack of respect for programmers is the major reason I moved away from Java and didn&#x2019;t want anything to do with it for such a long time.</p>
-<p>When I did start looking into Java again, something about Java 8 felt very different, as if a fundamental shift had occurred in the designers&#x2019; attitude about the language and its users. Many features and libraries that had been warts on the language were fixed after years of ignoring user complaints. New features felt very different, as if there were new folks on board who were extremely interested in programmer experience. These features were&#x2014;finally&#x2014;working to make the language better rather than just quickly adding ideas without delving into their implications. And some of the new features are downright elegant (or at least, as elegant as possible given Java constraints). I can</p>
-<p>only guess that some person or people have departed the language group and this has changed the perspective.</p>
-<p>Because of this new focus by the language developers&#x2014;and I don&#x2019;t think I&#x2019;m imagining it&#x2014;writing this book has been dramatically better than past experiences. Java 8 contains fundamental and important improvements. Alas, because of Java&#x2019;s rigid backwards-compatibility promise, these improvements required great effort so it&#x2019;s unlikely we&#x2019;ll see anything this dramatic again (I hope I&#x2019;m wrong about this). Nonetheless, I applaud those who have turned the ship as much as they have and set the language on a better course. For the first time I can ever recall, I found myself saying &#x201C;I love that!&#x201D; about some of the Java code I&#x2019;ve been able to write in Java 8.</p>
-<p>Ultimately, the timing for this book seems good, because Java 8 introduces important features that strongly affect the way code is written, while&#x2014;so far&#x2014;Java 9 seems to focus on the understory of the language, bringing important infrastructure features but not those that affect the kind of coding focused on in this book. However, because it&#x2019;s an eBook, if I discover something I think requires an update or an addition, I can push the new version to existing customers.</p>
-<h2 id="tested-examples"><img src="../assets/subhead.png" alt="alt text">Tested Examples</h2>
-<p>The code examples in this book compile with Java 8 and the Gradle build tool. All the examples are in a freely-accessible Github repository.</p>
-<p>Without a built-in test framework with tests that run every time you do a build of your system, you have no way of knowing whether your code is reliable. To accomplish this in the book, I created a test system to display and validate the output of most examples. The output from running an example is attached, as a block comment, at the end of examples that produce output. In some cases only the first few lines are shown, or first and last lines. Embedded output improves the reading and learning experience, and provides yet another way to verify the correctness of the examples.</p>
-<h2 id="popularity"><img src="../assets/subhead.png" alt="alt text">Popularity</h2>
-<p> Java&#x2019;s popularity has significant implications. If you learn it, getting a job will probably be easier. There are a lot more training materials, courses, and other learning resources available. If you&#x2019;re starting a company and you choose to work in Java, it&#x2019;s much easier to find programmers, and that&#x2019;s a compelling argument.</p>
-<p>Short-term thinking is almost always a bad idea. Don&#x2019;t use Java if you really don&#x2019;t like it&#x2014;using it just to get a job is an unhappy life choice. As a company, think hard before choosing Java just because you can hire people. There might be another language that makes fewer employees far more productive for your particular need.</p>
-<p>But if you do enjoy it, if Java does call to you, then welcome. I hope this book will enrich your programming experience.</p>
-<h2 id="android-programmers"><img src="../assets/subhead.png" alt="alt text">Android Programmers</h2>
-<p>I&#x2019;ve made this book as &#x201C;Java 8 as possible,&#x201D; so if you want to program for Android devices, you must study Java 5, which I cover in Thinking in Java, 4th edition. At the time of publishing of On Java 8, Thinking in Java, 4th Edition has become a free download, available through www.OnJava8.com. Thinking in Java, 4th Edition is available in print from Prentice-Hall. In addition, there are many other resources that specialize in Android programming.</p>
-<h2 id="this-is-only-an-ebook"><img src="../assets/subhead.png" alt="alt text">This is Only an eBook</h2>
-<p>On Java 8 is only available as an eBook, and only via www.OnJava8.com. Any other source or delivery mechanism is illegitimate. There is no print version.</p>
-<p>This is copyrighted work. Do not post or share it in any way without permission via mindviewinc@gmail.com. You may use the examples for teaching, as long as they are not republished without permission and attribution. See the Copyright.txt file in the example distribution for full details. This book is far too large to publish as a single print volume, and my intent has always been to only publish it as an eBook. Color syntax highlighting for code listings is, alone, worth the cost of admission. Searchability, font resizing or text-to-voice for the vision-impaired, the fact you can always keep it with you&#x2014;there are so many benefits to eBooks it&#x2019;s hard to name them all.</p>
-<p>Anyone buying this book needs a computer to run the programs and write code, and the eBook reads nicely on a computer (I was also surprised to discover that it even reads tolerably well on a phone). However, the best reading experience is on a tablet computer. Tablets are inexpensive enough that you can now buy one for less than you&#x2019;d pay for an equivalent print version of this book. It&#x2019;s much easier to read a tablet in bed (for example) than trying to manage the pages of a physical book, especially one this big. When working at your computer, you don&#x2019;t have to hold the pages open when using a tablet at your side. It might feel different at first, but I think you&#x2019;ll find the benefits far outweigh the discomfort of adapting.</p>
-<p>I&#x2019;ve done the research, and Google Play Books works on, and provides a very nice reading experience, every platform, including Linux and iOS devices. As an experiment, I&#x2019;ve decided to try publishing exclusively through Google Books.</p>
-<p>Note: At the time of this writing, reading the book through the</p>
-<p>Google Play Books web browser app was&#x2014;although tolerable&#x2014;the least satisfying viewing experience. I strongly advocate using a tablet computer instead.</p>
-<h2 id="colophon"><img src="../assets/subhead.png" alt="alt text">Colophon</h2>
-<p>This book was written with Pandoc-flavored Markdown, and produced into ePub version 3 format using Pandoc. The body font is Georgia and the headline font is Verdana. The code font is Ubuntu Mono, because it is especially compact and allows more characters on a line without wrapping. I chose to place the code inline (rather than make listings into images, as I&#x2019;ve seen some books do) because it was important to me that the reader be able to resize the font of the code listings when they resize the body font (otherwise, really, what&#x2019;s the point?).</p>
-<p>The build process for the book was automated, as well as the process to extract, compile and test the code examples. All automation was achieved through fairly extensive programs I wrote in Python 3. Cover Design The cover of On Java 8 is from a mosaic created through the Works Progress Administration (WPA, a huge project during the US Great Depression from 1935-1943 which put millions of out-of-work-people back to work). It also reminds me of the illustrations from The Wizard of Oz series of books. My friend and designer, Daniel Will-Harris (www.will-harris.com) and I just liked the image.</p>
-<h2 id="thanks"><img src="../assets/subhead.png" alt="alt text">Thanks</h2>
-<p>Thanks to Eric Evans (author of Domain-Driven Design) for suggesting the book title, and to everyone else in the conference newsgroups for their help in finding the title.</p>
-<p>Thanks to James Ward for starting me with the Gradle build tool for this book, and for his help and friendship over the years. Thanks to Ben Muschko for his work polishing the build files, and Hans Dockter for giving Ben the time.</p>
-<p>Jeremy Cerise and Bill Frasure came to the developer retreat for the book and followed up with valuable help.</p>
-<p>Thanks to all who have taken the time and effort to come to my conferences, workshops, developer retreats, and other events in my town of Crested Butte, Colorado. Your contributions might not be easily seen, but they are deeply important.</p>
-<h2 id="dedication"><img src="../assets/subhead.png" alt="alt text">Dedication</h2>
-<p>For my beloved father, E. Wayne Eckel.</p>
-<p>April 1, 1924&#x2014;November 23, 2016. Introduction</p>
-<p>&#x201C;The limits of my language are the limits of my world&#x201D;&#x2014;Wittgenstein This is true of both spoken/written languages and programming languages. It&#x2019;s often subtle: A language gently guides you into certain modes of thought and away from others. Java is particularly opinionated.</p>
+<p>This is true of both spoken/written languages and programming languages. It&#x2019;s often subtle: A language gently guides you into certain modes of thought and away from others. Java is particularly opinionated.</p>
 <p>Java is a derived language. The original language designers didn&#x2019;t want to use C++ for a project, so created a new language which unsurprisingly looked a lot like C++, but with improvements (their original project never came to fruition). The core changes were the incorporation of a virtual machine and garbage collection, both of which are described in detail in this book. Java is also responsible for pushing the industry forward in other ways; for example, most languages are now expected to include documentation markup syntax and a tool to produce HTML documentation.</p>
 <p>One of the most predominant Java concepts came from the SmallTalk language, which insists that the &#x201C;object&#x201D; (described in the next chapter) is the fundamental unit of programming, so everything must be an object. Time has tested this belief and found it overenthusiastic. Some folks even declare that objects are a complete failure and should be discarded. Personally, I find that making everything an object is not only an unnecessary burden but also pushes many designs in a poor direction. However, there are still situations where objects shine. Requiring that everything be an object (especially all the way down to the lowest level) is a design mistake, but banning objects altogether seems equally draconian.</p>
 <p>Other Java language decisions haven&#x2019;t panned out as promised. Throughout this book I attempt to explain these so you not only understand those features, but also why they might not feel quite right to you. It&#x2019;s not about declaring that Java is a good language or a bad one. If you understand the flaws and limitations of the language you will:</p>
@@ -1167,7 +1105,64 @@
 </li>
 </ol>
 <p>Visual BASIC (VB) was tied to BASIC, which wasn&#x2019;t really designed as an extensible language. All the extensions piled upon VB have produced some truly un-maintainable syntax. Perl is backward-compatible with awk, sed, grep, and other Unix tools it was meant to replace, and as a result it is often accused of producing &#x201C;write-only code&#x201D; (that is, you can&#x2019;t read your own code). On the other hand, C++, VB, Perl, and other languages such as SmallTalk had some of their design efforts focused on the issue of complexity and as a result are remarkably successful in solving certain types of problems.</p>
-<p>The communication revolution enables all of us to communicate with each other more easily: one-on-one as well as in groups and as a planet. I&#x2019;ve heard it suggested that the next revolution is the formation of a kind of global mind that results from enough people and enough interconnectedness. Java might or might not be one of the tools for that revolution, but at least the possibility has made me feel like I&#x2019;m doing something meaningful by attempting to teach the language</p>
+<p>The communication revolution enables all of us to communicate with each other more easily: one-on-one as well as in groups and as a planet. I&#x2019;ve heard it suggested that the next revolution is the formation of a kind of global mind that results from enough people and enough interconnectedness. Java might or might not be one of the tools for that revolution, but at least the possibility has made me feel like I&#x2019;m doing something meaningful by attempting to teach the language. </p>
+<h2 id="prerequisites"><img src="../assets/subhead.png" alt="alt text">Prerequisites</h2>
+<p>This book assumes you have some programming familiarity, so you understand:</p>
+<p>A program is a collection of statements The idea of a subroutine/function/macro Control statements such as &#x201C;if&#x201D; and looping constructs such as &#x201C;while&#x201D; Etc.</p>
+<p>You might have learned this in many places, typically school, books, or the Internet. As long as you you feel comfortable with the basic ideas of programming, you can work through this book. The Thinking in C multimedia seminar freely downloadable from OnJava8.com will bring you up to speed on the fundamentals necessary to learn Java. On Java 8 does introduce the concepts of object-oriented programming (OOP) and Java&#x2019;s basic control mechanisms.</p>
+<p>Although I make references to C and C++ language features, these are not intended to be insider comments, but instead to help all</p>
+<p>programmers put Java in perspective with those languages, from which, after all, Java is descended. I attempt to make these references simple and to explain anything that might be unfamiliar to a nonC/C++ programmer.</p>
+<h2 id="jdk-html-documentation"><img src="../assets/subhead.png" alt="alt text">JDK HTML Documentation</h2>
+<p>The Java Development Kit (JDK) from Oracle (a free download) comes with documentation in electronic form, readable through your Web browser. Unless necessary, this book will not repeat that documentation, because it&#x2019;s usually much faster to find the class descriptions with your browser than to look them up in a book (also, the online documentation is current). I&#x2019;ll simply refer to &#x201C;the JDK documentation.&#x201D; I&#x2019;ll provide extra descriptions of the classes only when it&#x2019;s necessary to supplement that documentation so you understand a particular example.</p>
+<h2 id="thinking-in-c"><img src="../assets/subhead.png" alt="alt text">Thinking in C</h2>
+<p>The Thinking in C multimedia seminar is freely downloadable from www.OnJava8.com. This gives an introduction to the C syntax, operators, and functions that are the foundation of Java syntax.</p>
+<p>Thinking in C also provides a gentle introduction to coding, assuming even less about the student&#x2019;s programming background than does this book.</p>
+<p>I commissioned Chuck Allison to create Thinking in C as a standalone product, which was later included in book CDs, and finally reworked as a free download. By freely providing this seminar online, I can ensure that everyone begins with adequate preparation. </p>
+<h2 id="source-code"><img src="../assets/subhead.png" alt="alt text">Source Code</h2>
+<p>All the source code for this book is available as copyrighted freeware, distributed via Github. To ensure you have the most current version, this is the official code distribution site. You may use this code in classroom and other educational situations.</p>
+<p>The primary goal of the copyright is to ensure that the source of the code is properly cited, and to prevent you from republishing the code without permission. (As long as this book is cited, using examples from the book in most media is generally not a problem.)</p>
+<p>In each source-code file you find a reference to the following copyright notice:</p>
+<pre style="font-weight: bold;">
+// Copyright.txt This computer source code is Copyright &#xA9;2017 MindView LLC.
+
+All Rights Reserved.
+
+Permission to use, copy, modify, and distribute this computer source code (Source Code) and its documentation without fee and without a written agreement for the purposes set forth below is hereby granted, provided that the above copyright notice, this paragraph and the following five numbered paragraphs appear in all copies.
+
+1. Permission is granted to compile the Source Code and to include the compiled code, in executable format only, in personal and commercial software programs.
+
+2. Permission is granted to use the Source Code without modification in classroom situations, including in presentation materials, provided that the book &quot;On Java 8&quot; is cited as the origin.
+
+3. Permission to incorporate the Source Code into printed media may be obtained by contacting:
+
+MindView LLC, PO Box 969, Crested Butte, CO 81224 MindViewInc@gmail.com
+
+4. The Source Code and documentation are copyrighted by MindView LLC. The Source code is provided without express or implied warranty of any kind, including any implied warranty of merchantability, fitness for a particular purpose or non-infringement. MindView LLC does not warrant that the operation of any program that includes the Source Code will be uninterrupted or error-free. MindView LLC makes no representation about the suitability of the Source Code or of any software that includes the Source Code for any purpose. The entire risk as to the quality and performance of any program that includes the Source Code is with the user of the Source Code. The user understands that the Source Code was developed for research and instructional purposes and is advised not to rely exclusively for any reason on the Source Code or any program that includes the Source Code. Should the Source Code or any resulting software prove defective, the user assumes the cost of all necessary servicing, repair, or correction.
+
+5. IN NO EVENT SHALL MINDVIEW LLC, OR ITS PUBLISHER BE LIABLE TO ANY PARTY UNDER ANY LEGAL THEORY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS, OR FOR PERSONAL INJURIES, ARISING OUT OF THE USE OF THIS SOURCE CODE AND ITS DOCUMENTATION, OR ARISING OUT OF THE INABILITY TO USE ANY RESULTING PROGRAM, EVEN IF MINDVIEW LLC, OR ITS PUBLISHER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. MINDVIEW LLC SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOURCE CODE AND DOCUMENTATION PROVIDED HEREUNDER IS ON AN &quot;AS IS&quot; BASIS, WITHOUT ANY ACCOMPANYING SERVICES FROM MINDVIEW LLC, AND MINDVIEW LLC HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+Please note that MindView LLC maintains a Web site which is the sole distribution point for electronic copies of the Source Code, https://github.com/BruceEckel/OnJava8-examples, where it is freely available under the terms stated above.
+</pre>
+
+<p>If you think you&apos;ve found an error in the Source Code, please submit a correction at: <a href="https://github.com/BruceEckel/OnJava8-examples/issues" target="_blank">https://github.com/BruceEckel/OnJava8-examples/issues</a> </p>
+<p>You may use the code in your projects and in the classroom (including your presentation materials) as long as the copyright notice that appears in each source file is retained.</p>
+<h2 id="coding-standards"><img src="../assets/subhead.png" alt="alt text">Coding Standards</h2>
+<p>In the text of this book, identifiers (keywords, methods, variables, and class names) are set in bold, fixed-width code font. Some keywords, such as class, are used so much that the bolding can become tedious. Those which are distinctive enough are left in normal font.</p>
+<p>I use a particular coding style for the examples in this book. As much as possible within the book&#x2019;s formatting constraints, this follows the style that Oracle itself uses in virtually all code you find at its site, and seems to be supported by most Java development environments. As the subject of formatting style is good for hours of hot debate, I&#x2019;ll just say I&#x2019;m not trying to dictate correct style via my examples; I have my own motivation for using the style I do. Because Java is a free-form programming language, continue to use whatever style you&#x2019;re comfortable with. One solution to the coding style issue is to use an IDE ( integrated development environment) tool like IntelliJ IDEA, Eclipse or NetBeans to change formatting to that which suits you.</p>
+<p>The code files in this book are tested with an automated system, and should work without compiler errors (except those specifically tagged) in the latest version of Java.</p>
+<p>This book focuses on and is tested with Java 8. If you must learn about earlier releases of the language not covered here, the 4th edition of Thinking in Java is freely downloadable at www.OnJava8.com.</p>
+<h2 id="bug-reports"><img src="../assets/subhead.png" alt="alt text">Bug Reports</h2>
+<p>No matter how many tools a writer uses to detect errors, some always creep in and these often leap off the page for a fresh reader. If you discover anything you believe to be an error, please submit the error along with your suggested correction, for either the book&#x2019;s prose or examples, here. Your help is appreciated.</p>
+<h2 id="mailing-list"><img src="../assets/subhead.png" alt="alt text">Mailing List</h2>
+<p>For news and notifications, you can subscribe to the low-volume email list at www.OnJava8.com. I don&#x2019;t use ads and strive to make the content as appropriate as possible.</p>
+<h2 id="what-about-user-interfaces"><img src="../assets/subhead.png" alt="alt text">What About User Interfaces?</h2>
+<p>Graphical user interfaces and desktop programming in Java have had a tumultuous&#x2014;some would say tragic&#x2014;history.</p>
+<p>The original design goal of the graphical user interface (GUI) library in Java 1.0 was to enable the programmer to build a GUI to look good on all platforms. That goal was not achieved. Instead, the Java 1.0 Abstract Windowing Toolkit (AWT) produced a GUI that looked equally mediocre on all systems. In addition, it was restrictive; you could use only four fonts and you could not access any of the more sophisticated GUI elements that exist in your operating system. The Java 1.0 AWT programming model was also awkward and non-objectoriented. A student in one of my seminars (who had been at Sun during the creation of Java) explained why: The original AWT had been conceived, designed, and implemented in a month. Certainly a marvel of productivity, and also an object lesson in why design is important.</p>
+<p>The situation improved with the Java 1.1 AWT event model, which took a much clearer, object-oriented approach, along with the addition of JavaBeans, a component programming model (now dead) oriented toward the easy creation of visual programming environments. Java 2 (Java 1.2) finished the transformation away from the old Java 1.0 AWT by essentially replacing everything with the Java Foundation Classes (JFC), the GUI portion of which is called &#x201C;Swing.&#x201D; These are a rich set of JavaBeans that create a reasonable GUI. The revision 3 rule of the software industry (&#x201C;a product isn&#x2019;t good until revision 3&#x201D;) seems to hold true with programming languages as well.</p>
+<p>It seemed that Swing was the final GUI library for Java. This assumption turned out to be wrong&#x2014;Sun made a final attempt, called JavaFX. When Oracle bought Sun they changed the original ambitious project (which included a scripting language) into a library, and now it appears to be the only UI toolkit getting development effort (see the Wikipedia article on JavaFX)&#x2014;but even that effort has diminished. JavaFX, too, seems eventually doomed.</p>
+<p>Swing is still part of the Java distribution (but it only receives maintenance, no new development), and with Java now an open-source project it should always be available. Also, Swing and JavaFX have some limited interactivity, presumably to aid the transition to JavaFX.</p>
+<p>Ultimately, desktop Java never took hold, and never even touched the designers&#x2019; ambitions. Other pieces, such as JavaBeans, were given much fanfare (and many unfortunate authors spent a lot of effort writing books solely on Swing and even books just on JavaBeans) but never gained any traction. Most usage you&#x2019;ll see for desktop Java is for integrated development environments (IDEs) and some in-house corporate applications. People do develop user interfaces in Java, but it&#x2019;s safe to consider that a niche usage of the language.</p>
+<p>If you must learn Swing, it&#x2019;s covered in the freely-downloadable Thinking in Java, 4th Edition (available at www.OnJava8.com), and in books dedicated to the topic.</p>
 
                                 
                                 </section>
@@ -1195,12 +1190,12 @@
 
             
                 
-                <a href="00-on-java-8.html" class="navigation navigation-prev " aria-label="Previous page: On Java 8">
+                <a href="01-preface.html#dedication" class="navigation navigation-prev " aria-label="Previous page: Dedication">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="01-preface.html#goals" class="navigation navigation-next " aria-label="Next page: Goals">
+                <a href="02-Introduction.html#prerequisites" class="navigation navigation-next " aria-label="Next page: Prerequisites">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1211,7 +1206,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Preface","level":"1.2","depth":1,"next":{"title":"Goals","level":"1.2.1","depth":2,"anchor":"#goals","path":"01-preface.md","ref":"01-preface.md#goals","articles":[]},"previous":{"title":"On Java 8","level":"1.1","depth":1,"path":"00-on-java-8.md","ref":"00-on-java-8.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"autor":"Helmut Brandl","theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Albatross Language Description","language":"en","gitbook":"*"},"file":{"path":"01-preface.md","mtime":"2019-01-11T07:22:41.060Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-12T04:55:08.646Z"},"basePath":".","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.3","depth":1,"next":{"title":"Prerequisites","level":"1.3.1","depth":2,"anchor":"#prerequisites","path":"02-Introduction.md","ref":"02-Introduction.md#prerequisites","articles":[]},"previous":{"title":"Dedication","level":"1.2.9","depth":2,"anchor":"#dedication","path":"01-preface.md","ref":"01-preface.md#dedication","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"autor":"Helmut Brandl","theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Albatross Language Description","language":"en","gitbook":"*"},"file":{"path":"02-Introduction.md","mtime":"2019-01-11T05:41:09.479Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-12T04:55:08.646Z"},"basePath":".","book":{"language":"en"}});
         });
     </script>
 </div>

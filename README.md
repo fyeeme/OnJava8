@@ -5,14 +5,20 @@
 * 本书是 《*Thinking in Java 4th Edition*》再版 可以认为是《*Thinking in Java 5th Edition*》 又名 《*on Java 8*》。作者\[美\] [Bruce Eckel](https://github.com/BruceEckel)
 * 相比 《*Thinking in Java 4th Edition*》 全书使用 JDK 8.0 而第四版使用的JDK5.0
 * 在Google Play可购买，目前价格是$45.6
+
 ## 快速阅读传送门
 
-- [立即阅读](https://fyeeme.github.io/OnJava8/)
+- [阅读中文版本](https://fyeeme.github.io/OnJava8/zh)
+- [阅读英文版本](https://fyeeme.github.io/OnJava8/en)
+
+## 翻译动机
+
+- 目前关于这本书在国内无法购买，而且也没有无法下载，某些平台可以下载，不过看了一下样式已经丢失了，即无法很好的达到阅读体验，所以把免费的部分整理成中、英文版本，方便自己和他人阅读，付费部分涉及版权，暂不翻译.
 
 ## 翻译进度
 - [ ] 前言 
 - [ ] 简介 
-- [ ] 第一章 对象的概念
+- [ ] 第一章 什么是对象
 - [ ] 第二章 安装Java和本书用例
 - [ ] 第三章 一切皆对象
 - [ ] 第四章 操作符
@@ -25,7 +31,7 @@
 
 ## 原书信息
 
-<img src="img/thumbnail.jpeg" width="200px" height="260px"  alt="thumbnail"/>
+<img src="assets/thumbnail.jpeg" width="200px" height="260px"  alt="thumbnail"/>
 
 * 书名: [On Java 8](http://www.onjava8.com/)
 * 作者: [Bruce Eckel](https://www.bruceeckel.com/) 
